@@ -55,3 +55,10 @@ The landing page (`pages/index.tsx`) includes three main navigation buttons usin
 This approach uses the reusable `Button` component with an `action` prop to handle routing behavior in a dynamic and scalable way.
 
 ![Landing page](./public/assets/images/landing_page.png)
+
+### Custom 404 Page
+
+- Created a user-friendly 404 error page with humorous messaging and a link back to home
+- Located at: `pages/404.tsx`
+
+![404 page](./public/assets/images/not_found_page.png)
