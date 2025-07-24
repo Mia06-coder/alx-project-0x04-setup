@@ -40,3 +40,17 @@ npm install --save react-icons
   ```bash
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
   ```
+
+## 📦 Features
+
+### 🏠 Landing Page with Imperative Routing
+
+The landing page (`pages/index.tsx`) includes three main navigation buttons using **imperative routing** via `useRouter()` from `next/router`. Each button routes the user to a different mini app within the project:
+
+- **Generate Text** ➝ `/generate-text-ai`
+- **Text to Image** ➝ `/text-to-image`
+- **Contact Us** ➝ `/counter-app`
+
+This approach uses the reusable `Button` component with an `action` prop to handle routing behavior in a dynamic and scalable way.
+
+![Landing page](./public/assets/images/landing_page.png)
