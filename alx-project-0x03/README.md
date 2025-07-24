@@ -8,6 +8,7 @@ This project demonstrates best practices and architecture in a Next.js TypeScrip
 - `/components/layouts/Footer.tsx` – App footer
 - `/components/layouts/Layout.tsx` – Shared layout wrapper
 - `/components/common/Button.tsx` – Reusable button
+- `/interface/index.ts` - Centralized interfaces file
 
 ## 🚀 Getting Started
 
