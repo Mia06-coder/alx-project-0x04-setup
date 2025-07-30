@@ -1,18 +1,17 @@
-# Counter App – React with useState
+# Context API Global State Counter App
 
-This React-based Counter App showcases how to use the `useState Hook` to manage component state. Users can increment or decrement the count with interactive buttons, with playful UI feedback as they go.
-
-> **Bonus Feature**: Fun emojis and motivational messages appear based on your count! 🔥🙈
+This project demonstrates how to use **React Context API** to manage global state across multiple components without prop drilling. It extends the base structure of `alx-project-0x04` and introduces shared state between the `Header` and `CounterApp` components.
 
 ---
 
 ## 📚 Table of Contents
 
 - [Screenshots](#screenshots)
-- [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
+- [Objective](#objective)
 - [Installation](#installation)
+- [Implementation](#implementation)
 - [Credits](#credits)
 - [Contact](#contact)
 
@@ -20,17 +19,7 @@ This React-based Counter App showcases how to use the `useState Hook` to manage 
 
 ## Screenshots
 
-![useState](./public/assets/images/usestate.png)
-
----
-
-## Features
-
-- State management using `useState`
-- Gradient background with `TailwindCSS`
-- Emoji feedback based on count value
-- Prevents count from going below zero
-- Smooth animations and hover effects
+![Counter App with Context API](./public/assets/images/context-api.png)
 
 ---
 
@@ -52,10 +41,12 @@ This React-based Counter App showcases how to use the `useState Hook` to manage 
 ## Project Structure
 
 ```plaintext
-alx-project-0x04/
+alx-project-0x05/
 ├── components/
 │ ├── layouts/
 │ │ └── Header.tsx
+├── context/
+│ └── CountContext.tsx
 ├── pages/
 │ ├── _app.tsx
 │ ├── index.tsx
@@ -73,10 +64,12 @@ alx-project-0x04/
 ## Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/mia06-coder/alx-project-0x04-setup.git
-   cd alx-project-0x04
+   cd alx-project-0x05
    ```
+
 2. Install dependencies
 
    ```bash
@@ -85,8 +78,28 @@ alx-project-0x04/
 
 3. Run the development server
    ```bash
-   npm run dev
+   npm run dev -- -p 3000
    ```
+
+---
+
+## Objective
+
+The **Context API** allows us to maintain a global state that can be accessed and modified across components without needing to pass props manually at every level.
+
+In this app:
+
+- A counter state is declared globally.
+- The `Header` and `CounterApp` components both consume and reflect changes in this global state.
+- When the counter is incremented or decremented in one component, the change is reflected in the other.
+
+---
+
+## Implementation
+
+1. **Create Context Provider**: `context/CountContext.tsx` contains the global counter logic
+2. **Wrap Application in Provider** in `pages/_app.tsx`
+3. **Update Header to Reflect Global State** in `components/layouts/Header.tsx`
 
 ---
 

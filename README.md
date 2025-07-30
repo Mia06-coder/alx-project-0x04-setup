@@ -1,15 +1,14 @@
-# Counter App – React with useState
+# StateCraft: Mastering State Management with Redux & Context API
 
-This React-based Counter App showcases how to use the `useState Hook` to manage component state. Users can increment or decrement the count with interactive buttons, with playful UI feedback as they go.
+StateCraft is a multi-stage project that explores different approaches to managing state in modern React applications. Using a simple yet extendable **counter app**, you'll progress from basic `useState` to advanced global state management using **Context API** and **Redux Toolkit**. Each stage demonstrates best practices, scalability patterns, and performance considerations.
 
-> **Bonus Feature**: Fun emojis and motivational messages appear based on your count! 🔥🙈
+> Ideal for developers aiming to master scalable state architecture in React projects.
 
 ---
 
 ## 📚 Table of Contents
 
 - [Screenshots](#screenshots)
-- [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
@@ -20,17 +19,7 @@ This React-based Counter App showcases how to use the `useState Hook` to manage 
 
 ## Screenshots
 
-![useState](./public/assets/images/usestate.png)
-
----
-
-## Features
-
-- State management using `useState`
-- Gradient background with `TailwindCSS`
-- Emoji feedback based on count value
-- Prevents count from going below zero
-- Smooth animations and hover effects
+> Coming Soon – Link to deployed version or a walkthrough video (if applicable).
 
 ---
 
@@ -53,19 +42,15 @@ This React-based Counter App showcases how to use the `useState Hook` to manage 
 
 ```plaintext
 alx-project-0x04/
-├── components/
-│ ├── layouts/
-│ │ └── Header.tsx
-├── pages/
-│ ├── _app.tsx
-│ ├── index.tsx
-│ └── counter-app.tsx
-├── styles/
-│ └── globals.css
+├── components/ # Shared UI components
+├── pages/ # Next.js pages
+│ ├── counter-app.tsx # Main counter app
+├── context/ # Context API implementation
+│ └── CountContext.tsx
+├── store/ # Redux store and slices
+│ └── store.ts
 ├── public/
-├── package.json
-├── README.md
-└── ...
+└── styles/
 ```
 
 ---
@@ -88,14 +73,10 @@ alx-project-0x04/
    npm run dev
    ```
 
----
-
 ## Credits
 
 - Project idea & structure inspired by [ALX](https://www.alxafrica.com/) exercises
 - Icons and badges from [Shields.io](https://shields.io/)
-
----
 
 ## Contact
 
