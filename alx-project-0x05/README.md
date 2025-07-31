@@ -28,8 +28,6 @@ This project demonstrates how to use **React Context API** to manage global stat
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.x-3178C6?style=flat&logo=typescript)
 ![Next.js](https://img.shields.io/badge/Next.js-13+-000000?style=flat&logo=next.js)
-![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-1.x-764ABC?style=flat&logo=redux)
-![React Redux](https://img.shields.io/badge/React--Redux-7.x-593D88?style=flat&logo=react)
 ![Context API](https://img.shields.io/badge/Context%20API-Built--in-blueviolet?style=flat&logo=react)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)

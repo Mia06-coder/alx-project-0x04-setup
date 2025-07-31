@@ -8,18 +8,11 @@ StateCraft is a multi-stage project that explores different approaches to managi
 
 ## 📚 Table of Contents
 
-- [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Credits](#credits)
 - [Contact](#contact)
-
----
-
-## Screenshots
-
-> Coming Soon – Link to deployed version or a walkthrough video (if applicable).
 
 ---
 
@@ -60,7 +53,7 @@ alx-project-0x04/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/mia06-coder/alx-project-0x04-setup.git
-   cd alx-project-0x04
+   cd <project-folder>
    ```
 2. Install dependencies
 
